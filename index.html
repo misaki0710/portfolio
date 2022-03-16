@@ -1,10 +1,98 @@
 <!DOCTYPE html>
-<html lang="ja" dir="ltr">
+<html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>misaki's portfolio</title>
+    <meta name="keywords" content="portfolio,ポートフォリオ,Webデザイン,Webデザイナー,コーディング,プログラミング">
+    <meta name="description" content="IT系専門学校生によるポートフォリオサイトです。Webデザイン、プログラミング、コーディングなどを学んでいます。
+    優しい雰囲気の手書きイラストや、視認性の高いまとまりのあるトーン配色を使ったデザインが得意です。">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-
+    <header>
+      <div class="content">
+        <div class="catch">
+          <img src="image/catch.jpg" alt="空の写真" class="img">
+          <img src="image/logo.png" alt="ロゴ" class="logo"><br>
+          <nav>
+            <a href="about.html">自己紹介</a>
+            <a href="sozai.html">作品集</a>
+            <a href="contact.html">連絡先</a>
+          </nav>
+        </div>
+      </div> 
+    </header>
+    <main>
+      <div class="line"></div>
+      <div class="content">
+        <article class="skil">
+          <h1>学んだこと</h1>
+          <table>
+            <tr>
+              <td class="items">
+                <h2>デザイン</h2>
+                <img src="image/design.png" alt="丸と三角"><br>
+                <p>Illustrator / Photoshop / 色彩学<br>
+                    ユニバーサルデザインを学びました<br>
+                    トーン＆マナーを意識してデザインします
+                </p>
+              </td>
+              <td class="items">
+                <h2>プログラミング</h2>
+                <img src="image/programming.png" alt="キーボードのイラスト"><br>
+                <p>JavaScript / PHP / Java<br>
+                    JavaServlet / MySQL<br>
+                    DBを使いカート機能を実装させました
+                </p>
+              </td>
+              <td class="items">
+                <h2>コーディング</h2>
+                <img src="image/cording.png" alt="タグ＜／＞"><br>
+                <p>デザイン通りのコーディング<br>
+                    レスポンシブ対応をします
+                </p>
+              </td>
+            </tr>
+          </table>
+        </article>
+      </div>
+      <div class="line"></div>
+      <div class="content">
+        <article class="about">
+          <img src="image/about.png" alt="about me" class="midashi"><br>
+          <a href="about.html">
+            <p><br><img src="image/meishi.jpg" alt="名刺の画像"></p><br>
+            <p>詳しくはこちら</p>
+          </a>
+          <p><br><br></p>
+        </article>
+      </div>
+      <div class="line"></div>
+      <div class="content">
+        <article class="works">
+          <img src="image/works.png" alt="works" class="midashi"><br><br>
+          <a href="sozai.html">
+            <p><br><br>
+              <img src="image/sozai_.jpg" class="work_items"><img src="image/minnano_.jpg" class="work_items">
+            </p><br>
+            <p>画像をクリックすると作品一覧ページへ進みます</p>
+          </a>
+          <p><br><br></p>
+        </article>
+      </div>
+    </main>
+    <footer>
+      <div class="line"></div>
+      <ul>
+        <li><a href="about.html">自己紹介</a>&nbsp;｜&nbsp;</li>
+        <li><a href="sozai.html">作品集</a>&nbsp;｜&nbsp;</li>
+        <li><a href="contact.html">連絡先</a></li>
+      </ul>
+      <div class="right"><br><br>
+        <a href="index.html"><img src="image/logo.png" class="logo"></a><br>
+        <small>Copyright &copy; 2022 Misaki Funatake All Rights Reserved.</small>
+      </div>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/*共通*/
+
+body{
+  max-width: 100%;
+}
+.line{
+  display: block;
+  border-top: solid #ffeb40 2px;
+  width: 100%;
+  margin-bottom: 50px;
+  clear: both;
+}
+
+.content{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+ul li{
+  list-style: none;
+}
+/*ここからメイン画像*/
+
+header{
+  text-align: left;
+  height: 580px;
+  padding-top: 80px;
+}
+.catch .logo{
+  margin-top: 180px;
+}
+nav{
+  margin-top:40px;
+}
+.img{
+  float: right;
+  margin-top: 20px;
+}
+/*
+.catch .sky{
+  position: absolute;
+  margin-right: 35px;
+}
+.catch .circle{
+  clear: both;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+*/
+
+.catch a{
+  font-family: "MS P明朝", "ヒラギノ明朝";
+  font-family: serif;
+  writing-mode: vertical-rl;
+  text-decoration: none;
+  color: #000;
+  font-size: 3em;
+  margin: 0 20px;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.catch a:hover{
+  color: #9d8b74;
+}
+
+
+/*ここまでメイン画像*/
+
+/*ここからメイン*/
+h1{
+  color: #9d8b74;
+  margin-top: 40px;
+  margin-bottom:  50px ;
+  font-family: "MS P明朝", "ヒラギノ明朝";
+  font-family: serif;
+  font-weight: bold;
+}
+
+h2{
+  color: #333;
+  font-size: 1em;
+}
+.skil table{
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.skil p{
+  display: inline-block;
+  text-align: left;
+  font-size: 0.8em;
+}
+.items{
+  padding-right: 45px;
+}
+.items:last-child{
+  padding-right: 0;
+}
+.midashi{
+  float: left;
+}
+.about p{
+  clear: both;
+}
+.works p{
+  clear: both;
+}
+
+.about a{
+  color: #9d8b74;
+  padding-bottom: 50px;
+}
+
+.about a img:hover{
+  filter: opacity(0.9) drop-shadow(0 0 0 #9d8b74); 
+  }
+
+.works a{
+  color: #9d8b74;
+  padding-bottom: 50px;
+}
+
+.works a img:hover{
+  filter: opacity(0.9) drop-shadow(0 0 0 #9d8b74); 
+  }
+
+.work_items{
+  margin-right: 30px;
+  border: solid #9d8b74 1px;
+}
+.work_items:last-child{
+  margin-right: 0;
+}
+/*ここまでメイン*/
+/*ここからフッター*/
+
+footer{
+  height: 250px;
+  background-color: #e0ece4;
+}
+footer li{
+  color: #9d8b74;
+  float: left;
+  font-size: 2em;
+}
+footer li:first-child{
+  margin-left: 20px;
+}
+footer a{
+  font-family: "MS P明朝", "ヒラギノ明朝";
+  font-family: serif;
+  text-decoration: none;
+  color: #9d8b74;
+  font-weight: bold;
+}
+footer a:hover{
+  color: #000;
+}
+.right{
+  clear: both;
+  text-align: right;
+}
+footer .logo{
+  margin-right: 40px;
+  margin-bottom: 5px;
+}
+small{
+  color: #9d8b74;
+  margin-right: 40px;
+}
+
+/*ここまでフッター*/
+
+
+/*---連絡先---------------------------------*/
+.page_logo{
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+
+.wrapper{
+  width:100%;
+  background: url(../image/star.png); 
+  background-repeat: repeat-y;
+  background-position: right;
+  background-color:#e0ece4;
+  height: 800px;
+}
+.area{
+  margin: 40px auto;
+  background: #fff;
+  padding:50px 20px;
+  width: 960px;
+  height: 400px;
+  text-align: center;
+}
+.area form table caption{
+  color: #9d8b74;
+  margin: 20px 0 40px 0 ;
+}
+.area form table{
+  margin: auto;
+}
+input{
+  margin: 0 auto;
+}
+.input{
+  width: 300px;
+}
+textarea{
+  height: 100px;
+}
+.area p{
+  color: #9d8b74;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+}
+.area a{
+  color: #9d8b74;
+  display: inline-block;
+  margin: 0 auto;
+}
